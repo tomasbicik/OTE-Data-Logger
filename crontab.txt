@@ -1,0 +1,3 @@
+59 23 * * * python3 /home/tomas/OTE/vytvorxmlzdb.py
+59 23 * * * python3 /home/tomas/OTE/odesliemail.py
+0 */1 * * * /usr/bin/bash /home/tomas/OTE/dwnfileote.sh >> /home/tomas/cronLogDwnfileote.txt 2>&1
